@@ -1,0 +1,140 @@
+.footer {
+  width: 70%;
+  max-width: 900px;
+  height: 300px;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+  // background-color: #7cc176;
+
+  .content {
+    position: relative;
+    height: 100%;
+    // background-color: teal;
+
+    .logo {
+      height: 30%;
+      font-size: 30px;
+      // background: violet;
+
+      a{
+        height: 100%;
+        text-decoration: none;
+        h2{
+          height: auto;
+          padding-top: 40px;
+        }
+      }
+    }
+
+    .footerInfo{
+      height: 70%;
+
+      .footerSection {
+        border-collapse: collapse;
+        height: 30%;
+
+        p{
+          @include vertical-align;
+          font-size: 15px;
+          color:#888888;
+        }
+
+
+
+        .socialFooter {
+          display: table;
+          width: 100%;
+          height: 100%;
+          margin: 0 auto;
+
+          li {
+            display: table-cell;
+            border-collapse: collapse;
+            vertical-align: middle;
+
+            a{
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .footerSection:last-child{
+        p{
+          font-size: 10px;
+        }
+      }
+
+    }
+  }
+}
+
+//    SOCIAL MEDIA ICON COLORS
+
+.goF {
+  color: $googleplus;
+}
+
+.fbF {
+  color: $facebook;
+}
+
+.inF {
+  color: $instagram;
+}
+
+.liF {
+  color: $linkedin;
+}
+
+.twF {
+  color: $twitter;
+}
+
+.ghF {
+  color: $github;
+}
+
+.ytF {
+  color: $youtube;
+}
+
+.vineF {
+    color: $vine;
+}
+
+.vimeoF {
+    color: $vimeo;
+}
+
+.piF {
+    color: $pinterest;
+}
+
+.cpF {
+    color: $codepen;
+}
+
+.flF {
+    color: $flickr;
+}
+
+.redF {
+  color: $reddit;
+}
+
+.scF {
+  color: $soundcloud;
+}
+
+.twitF {
+  color: $twitch;
+}
+
+.yelpF {
+  color: $yelp;
+}
+
+.steamF {
+  color: $steam;
+}

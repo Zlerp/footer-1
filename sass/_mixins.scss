@@ -1,0 +1,25 @@
+@mixin borderBox {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,700,400italic,300,100|Pacifico);
+@mixin pacifico {
+	font-family: 'Pacifico', cursive;
+}
+@mixin lato {
+	font-family: 'Lato', sans-serif;
+}
+
+@mixin vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

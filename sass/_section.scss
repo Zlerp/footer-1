@@ -1,0 +1,19 @@
+.section {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  @include borderBox;
+  border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+body {
+  color: #292929;
+}
