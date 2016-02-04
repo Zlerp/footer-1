@@ -877,10 +877,12 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     height: 100%; }
     .footer .content .logo {
       height: 30%;
-      font-size: 30px; }
+      font-size: 30px;
+      font-weight: 900; }
       .footer .content .logo a {
         height: 100%;
-        text-decoration: none; }
+        text-decoration: none;
+        color: #7a5194; }
         .footer .content .logo a h2 {
           height: auto;
           padding-top: 40px; }
