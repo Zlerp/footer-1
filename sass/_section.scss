@@ -1,14 +1,50 @@
 .section {
   width: 100vw;
   height: 100vh;
-  background-color: red;
+  background-color: #fc4e4e;
   @include borderBox;
-  border: 2px solid white;
 }
 
 
+.section:nth-of-type(2){
+  background-color: rgb(255, 185, 79);
+}
+.section:nth-of-type(3){
+  background-color: rgb(173, 251, 126);
+}
+.section:nth-of-type(4){
+  background-color: rgb(76, 233, 229);
+}
+.section:nth-of-type(5){
+  background-color: rgb(215, 119, 255);
+}
+.section:nth-of-type(6){
+  background-color: rgb(128, 179, 255);
+}
 
+.top {
+  padding-top: 100px;
+  text-align: center;
+  h2{
+    margin: 0 auto;
+    width: 200px;
+    font-size: 50px;
+    color: white;
+    padding: 30px 30px 30px 30px;
+    border: 5px inset #000;
+    cursor: pointer;
+    @include animate(.3);
+  }
 
+  h2:hover {
+    background-color: white;
+    border: 5px outset #000;
+    color: black;
+    @include tShadow;
+    @include bShadow;
+
+  }
+}
 
 
 

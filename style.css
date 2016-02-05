@@ -865,32 +865,61 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 @media screen and (min-width: 48em) {
   .noSmall {
     display: none; } }
+#footerContainer {
+  width: 100%;
+  background-color: #ffffff;
+  -moz-box-shadow: 0px -5px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px -5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0 -5px 5px rgba(0, 0, 0, 0.3); }
+
 .footer {
+  background-color: #ffffff;
   width: 70%;
   max-width: 900px;
   height: 300px;
-  background-color: white;
   text-align: center;
   margin: 0 auto; }
   .footer .content {
     position: relative;
     height: 100%; }
     .footer .content .logo {
-      height: 30%;
+      height: 25%;
       font-size: 30px;
-      font-weight: 900; }
-      .footer .content .logo a {
-        height: 100%;
-        text-decoration: none;
-        color: #7a5194; }
-        .footer .content .logo a h2 {
-          height: auto;
-          padding-top: 40px; }
+      font-weight: 900;
+      width: 100%; }
+      .footer .content .logo h2 {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding-top: 20px; }
+        .footer .content .logo h2 a {
+          text-decoration: none;
+          color: rgba(55, 135, 255, 0.71);
+          -webkit-transition: 0.4s ease-in-out;
+          -moz-transition: 0.4s ease-in-out;
+          -o-transition: 0.4s ease-in-out;
+          transition: 0.4s ease-in-out; }
+        .footer .content .logo h2 a:hover, .footer .content .logo h2 a:active {
+          color: #3787ff; }
+    .footer .content .footerSection:first-child {
+      color: #7809f6; }
+      .footer .content .footerSection:first-child h2 {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        transform: translateY(-50%); }
     .footer .content .footerInfo {
-      height: 70%; }
+      height: 75%; }
       .footer .content .footerInfo .footerSection {
         border-collapse: collapse;
-        height: 30%; }
+        height: 50px; }
         .footer .content .footerInfo .footerSection p {
           position: relative;
           top: 50%;
@@ -966,16 +995,66 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .steamF {
   color: black; }
 
+.fa {
+  opacity: .5;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out; }
+
+.fa:hover, .fa:active {
+  opacity: 1; }
+
 .section {
   width: 100vw;
   height: 100vh;
-  background-color: red;
+  background-color: #fc4e4e;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
-  box-sizing: border-box;
-  border: 2px solid white; }
+  box-sizing: border-box; }
+
+.section:nth-of-type(2) {
+  background-color: #ffb94f; }
+
+.section:nth-of-type(3) {
+  background-color: #adfb7e; }
+
+.section:nth-of-type(4) {
+  background-color: #4ce9e5; }
+
+.section:nth-of-type(5) {
+  background-color: #d777ff; }
+
+.section:nth-of-type(6) {
+  background-color: #80b3ff; }
+
+.top {
+  padding-top: 100px;
+  text-align: center; }
+  .top h2 {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 50px;
+    color: white;
+    padding: 30px 30px 30px 30px;
+    border: 5px inset #000;
+    cursor: pointer;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; }
+  .top h2:hover {
+    background-color: white;
+    border: 5px outset #000;
+    color: black;
+    -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
 
 body {
   color: #292929; }
