@@ -897,8 +897,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
         transform: translateY(-50%);
         padding-top: 20px; }
         .footer .content .logo h2 a {
-          text-decoration: none;
-          color: rgba(55, 135, 255, 0.71);
+          color: rgba(55, 135, 255, 0.31);
           -webkit-transition: 0.4s ease-in-out;
           -moz-transition: 0.4s ease-in-out;
           -o-transition: 0.4s ease-in-out;

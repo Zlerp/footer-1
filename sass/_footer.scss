@@ -33,15 +33,12 @@
 
 
         a {
-          text-decoration: none;
-          color: rgba(55, 135, 255, 0.71);
+          color: rgba(55, 135, 255, 0.31);
           @include animate(.4);
         }
 
         a:hover, a:active {
           color: rgba(55, 135, 255, 1);
-
-
         }
       }
     }
